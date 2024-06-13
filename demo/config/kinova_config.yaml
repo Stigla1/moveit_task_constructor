@@ -4,15 +4,15 @@
     max_solutions: 10
 
     # Planning group and link names
-    arm_group_name: "panda_arm"
-    eef_name: "hand"
-    hand_group_name: "hand"
-    hand_frame: "panda_link8"
+    arm_group_name: "manipulator"
+    eef_name: "gripper"
+    hand_group_name: "gripper"
+    hand_frame: "robotiq_85_base_link"
 
     # Poses
-    hand_open_pose: "open"
-    hand_close_pose: "close"
-    arm_home_pose: "ready"
+    hand_open_pose: "Open"
+    hand_close_pose: "Close"
+    arm_home_pose: "home"
 
     # Scene frames
     world_frame: "world"
